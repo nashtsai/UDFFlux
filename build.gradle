@@ -1,6 +1,6 @@
 // Establish version and status
 ext.githubProjectName = rootProject.name // Change if github project name is not the same as the root project's name
-group = "com.netflix.${githubProjectName}"
+group = "com.nashtsai.storm.${githubProjectName}"
 
 buildscript {
     repositories {
@@ -31,6 +31,7 @@ dependencies {
     compile 'com.sun.jersey:jersey-core:1.11'
     compile 'com.sun.jersey:jersey-server:1.11'
     compile 'com.sun.jersey:jersey-servlet:1.11'
+    compile 'org.slf4j:slf4j-api:1.6.3'
     testCompile 'org.testng:testng:6.1.1'
     testCompile 'org.mockito:mockito-core:1.8.5'
 }
